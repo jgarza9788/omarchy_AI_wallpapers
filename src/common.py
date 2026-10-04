@@ -91,6 +91,18 @@ def box_blur(a, r, passes=3):
     return a
 
 
+def upsample(img, w, h):
+    """Bilinear resize of a 2D array to (h, w)."""
+    ys = np.linspace(0, img.shape[0] - 1, h, dtype=np.float32)
+    xs = np.linspace(0, img.shape[1] - 1, w, dtype=np.float32)
+    y0, x0 = ys.astype(int), xs.astype(int)
+    y1, x1 = np.minimum(y0 + 1, img.shape[0] - 1), np.minimum(x0 + 1, img.shape[1] - 1)
+    fy, fx = (ys - y0)[:, None], (xs - x0)[None, :]
+    top = img[y0][:, x0] * (1 - fx) + img[y0][:, x1] * fx
+    bot = img[y1][:, x0] * (1 - fx) + img[y1][:, x1] * fx
+    return top * (1 - fy) + bot * fy
+
+
 def smoothstep(e0, e1, x):
     t = np.clip((x - e0) / (e1 - e0), 0, 1)
     return t * t * (3 - 2 * t)

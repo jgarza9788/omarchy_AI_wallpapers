@@ -16,6 +16,15 @@ python3 src/07-galaxy/galaxy.py
 python3 src/09-sigils/sigils.py
 python3 src/10-sundial/sundial.py
 python3 src/11-app-galaxy/app_galaxy.py
+python3 src/15.1-wake/wake_straight.py   # renders its interceptor sprite with Blender first
+python3 src/26-strata/strata.py
+python3 src/27-physarum/physarum.py
+python3 src/28-chladni/chladni.py
+python3 src/30-caustics/caustics.py
+python3 src/inventory.py --refresh   # 32-35 read the installed-software inventory
+python3 src/32-periodic/periodic.py
+python3 src/34-bubbles/bubbles.py
+python3 src/35-receipt/receipt.py
 for g in 11-app-galaxy/app_galaxy 13-event-horizon/event_horizon 14-collapse/collapse 15-wake/wake 16-merger/merger \
          17-lightspeed/lightspeed 22-paper-terrain/paper_terrain; do
   python3 "src/$g.py" --scheme omarchy   # official brand colours
@@ -33,5 +42,9 @@ if [[ "${1:-}" != "--fast" ]]; then
   blender -b assets/OMA.blend -P src/23-oma-blend/oma_icon_wall.py -- --scheme omarchy
   blender -b assets/OMA_00.blend -P src/24-oma-dome/oma_dome.py -- --variant all
   blender -b assets/OMA_01.blend -P src/25-twist/twist.py -- --variant all
+  blender -b -P src/29-keymap/keymap.py -- --scheme all --samples 64
+  blender -b -P src/31-loupe/loupe.py -- --scheme all
+  blender -b -P src/31-loupe/loupe.py -- --scheme omarchy --glass all
+  blender -b -P src/33-city/city.py -- --scheme all
 fi
 ./make_previews.sh

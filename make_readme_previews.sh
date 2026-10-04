@@ -14,9 +14,14 @@ PICKS=(
   16-merger/merger--tokyo-night          17-lightspeed/lightspeed--hackerman  18-swatches/swatches--gruvbox
   19-groovy/groovy--ristretto            20-halftone/halftone--vantablack     21-night-side/night-side--tokyo-night
   22-paper-terrain/paper-terrain--rose-pine 23-oma-blend/oma-icon-wall--omarchy 24-oma-dome/oma-dome--mirror
-  25-twist/twist--glass
+  25-twist/twist--glass                  15.1-wake/wake-straight--omarchy
+  26-strata/strata--gruvbox             27-physarum/physarum--omarchy        28-chladni/chladni--omarchy
+  29-keymap/keymap--omarchy              30-caustics/caustics--osaka-jade     31-loupe/loupe--omarchy
+  32-periodic/periodic--omarchy          33-city/city--omarchy                34-bubbles/bubbles--catppuccin
+  35-receipt/receipt--gruvbox
 )
 for p in "${PICKS[@]}"; do
+  [ -f "output/$p.png" ] || { echo "skip $p (not rendered)"; continue; }
   magick "output/$p.png" -resize 960x540 -strip -quality 82 "docs/thumbs/${p%%/*}.jpg"
 done
 HERO=(13-event-horizon 24-oma-dome 06-suminagashi 19-groovy
