@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2160" width="3840" height="2160">
+<defs><filter id="sh" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-18" dy="10" stdDeviation="26" flood-color="#000" flood-opacity="0.45"/></filter></defs>
+<rect width="3840" height="2160" fill="#1a1b26"/>
+<g fill="#75493d" filter="url(#sh)"><path d="M2869.0 853.7 L3031.6 691.2 L3355.6 1015.2 L3031.6 1339.2 L2869.0 1176.7 Z"/></g>
+<g fill="#449dab" filter="url(#sh)"><path d="M2571.0 853.7 L2733.5 691.2 L3057.5 1015.2 L2733.5 1339.2 L2571.0 1176.7 Z"/></g>
+<g fill="#f7768e" filter="url(#sh)"><path d="M2272.9 853.7 L2435.4 691.2 L2759.4 1015.2 L2435.4 1339.2 L2272.9 1176.7 Z"/></g>
+<g fill="#ad8ee6" filter="url(#sh)"><path d="M1974.8 853.7 L2137.4 691.2 L2461.4 1015.2 L2137.4 1339.2 L1974.8 1176.7 Z"/></g>
+<g fill="#7aa2f7" filter="url(#sh)"><path d="M1676.7 853.7 L1839.3 691.2 L2163.3 1015.2 L1839.3 1339.2 L1676.7 1176.7 Z"/></g>
+<g fill="#eb927b" filter="url(#sh)"><path d="M1378.6 853.7 L1541.2 691.2 L1865.2 1015.2 L1541.2 1339.2 L1378.6 1176.7 Z"/></g>
+<g fill="#a9b1d6" filter="url(#sh)"><path d="M1080.6 853.7 L1243.1 691.2 L1567.1 1015.2 L1243.1 1339.2 L1080.6 1176.7 Z"/></g>
+<g fill="#e0af68" filter="url(#sh)"><path d="M782.5 853.7 L945.0 691.2 L1269.0 1015.2 L945.0 1339.2 L782.5 1176.7 Z"/></g>
+<g fill="#9ece6a" filter="url(#sh)"><path d="M484.4 853.7 L647.0 691.2 L971.0 1015.2 L647.0 1339.2 L484.4 1176.7 Z"/></g>
+<text x="727.7" y="1429.2" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#565f89">#9ece6a</text>
+<text x="1025.8" y="1429.2" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#565f89">#e0af68</text>
+<text x="1323.8" y="1429.2" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#565f89">#a9b1d6</text>
+<text x="1621.9" y="1429.2" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#565f89">#eb927b</text>
+<text x="1920.0" y="1429.2" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#565f89">#7aa2f7</text>
+<text x="2218.1" y="1429.2" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#565f89">#ad8ee6</text>
+<text x="2516.2" y="1429.2" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#565f89">#f7768e</text>
+<text x="2814.2" y="1429.2" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#565f89">#449dab</text>
+<text x="3112.3" y="1429.2" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#565f89">#75493d</text>
+<text x="3730" y="2050" text-anchor="end" font-family="SpaceMono Nerd Font Mono" font-size="26" letter-spacing="8" fill="#565f89">OMARCHY · TOKYO-NIGHT · 9 COLORS</text>
+</svg>

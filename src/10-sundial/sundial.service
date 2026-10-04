@@ -1,0 +1,6 @@
+[Unit]
+Description=Sundial wallpaper: show the frame for the current hour
+
+[Service]
+Type=oneshot
+ExecStart=/home/jgarza/Pictures/create_WP_AI_Test/src/10-sundial/sundial-tick.sh

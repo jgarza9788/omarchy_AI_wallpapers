@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2160" width="3840" height="2160">
+<defs><filter id="sh" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="-18" dy="10" stdDeviation="26" flood-color="#000" flood-opacity="0.45"/></filter></defs>
+<rect width="3840" height="2160" fill="#2d353b"/>
+<g fill="#704e3f" filter="url(#sh)"><rect x="2818.1" y="561.6" width="381.0" height="907.2" rx="190.5"/></g>
+<g fill="#e67e80" filter="url(#sh)"><rect x="2546.0" y="561.6" width="381.0" height="907.2" rx="190.5"/></g>
+<g fill="#d699b6" filter="url(#sh)"><rect x="2273.8" y="561.6" width="381.0" height="907.2" rx="190.5"/></g>
+<g fill="#e09d7f" filter="url(#sh)"><rect x="2001.6" y="561.6" width="381.0" height="907.2" rx="190.5"/></g>
+<g fill="#7fbbb3" filter="url(#sh)"><rect x="1729.5" y="561.6" width="381.0" height="907.2" rx="190.5"/></g>
+<g fill="#83c092" filter="url(#sh)"><rect x="1457.3" y="561.6" width="381.0" height="907.2" rx="190.5"/></g>
+<g fill="#a7c080" filter="url(#sh)"><rect x="1185.2" y="561.6" width="381.0" height="907.2" rx="190.5"/></g>
+<g fill="#dbbc7f" filter="url(#sh)"><rect x="913.0" y="561.6" width="381.0" height="907.2" rx="190.5"/></g>
+<g fill="#d3c6aa" filter="url(#sh)"><rect x="640.8" y="561.6" width="381.0" height="907.2" rx="190.5"/></g>
+<text x="831.4" y="1558.8" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#4f585e">#d3c6aa</text>
+<text x="1103.5" y="1558.8" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#4f585e">#dbbc7f</text>
+<text x="1375.7" y="1558.8" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#4f585e">#a7c080</text>
+<text x="1647.8" y="1558.8" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#4f585e">#83c092</text>
+<text x="1920.0" y="1558.8" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#4f585e">#7fbbb3</text>
+<text x="2192.2" y="1558.8" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#4f585e">#e09d7f</text>
+<text x="2464.3" y="1558.8" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#4f585e">#d699b6</text>
+<text x="2736.5" y="1558.8" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#4f585e">#e67e80</text>
+<text x="3008.6" y="1558.8" text-anchor="middle" font-family="SpaceMono Nerd Font Mono" font-size="26" fill="#4f585e">#704e3f</text>
+<text x="3730" y="2050" text-anchor="end" font-family="SpaceMono Nerd Font Mono" font-size="26" letter-spacing="8" fill="#4f585e">OMARCHY · EVERFOREST · 9 COLORS</text>
+</svg>

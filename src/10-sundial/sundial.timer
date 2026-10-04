@@ -1,0 +1,10 @@
+[Unit]
+Description=Advance the Sundial wallpaper every hour
+
+[Timer]
+OnCalendar=hourly
+OnStartupSec=30
+Persistent=true
+
+[Install]
+WantedBy=timers.target

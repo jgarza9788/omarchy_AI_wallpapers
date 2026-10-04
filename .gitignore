@@ -1,0 +1,8 @@
+# scratch / caches
+.wip/
+__pycache__/
+*.pyc
+*.blend1
+# Claude Code session state (keep the shared skill)
+.claude/*
+!.claude/skills/
