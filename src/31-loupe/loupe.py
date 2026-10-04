@@ -14,7 +14,8 @@ Usage:
   blender -b -P src/31-loupe/loupe.py -- --scheme all
   blender -b -P src/31-loupe/loupe.py -- --scheme omarchy --glass all     # clear, tinted and frosted glass
 Glass variants: clear; tinted green, blue, red, amber, violet, cyan (in the theme's own
-hues); frosted (roughness 0.24) clear, green and blue. Clear renders are loupe--<scheme>,
+hues); frosted (roughness 0.24) clear and in every tint,
+plus light (0.1) and heavy (0.45) frost. Clear renders are loupe--<scheme>,
 the others loupe-<variant>--<scheme>.
 Glass types: smoke, opal (milky), reeded (fluted ribs), hammered (dimpled),
 iridescent (thin film) and dichroic (tinted thin film).
@@ -43,7 +44,10 @@ THICK = 0.55
 # variant -> (palette key for the tint or None, roughness); frosted glass scatters what it shows
 GLASS = {"clear": (None, 0.0), "green": ("green", 0.0), "blue": ("blue", 0.0), "red": ("red", 0.0),
          "amber": ("yellow", 0.0), "violet": ("magenta", 0.0), "cyan": ("cyan", 0.0),
-         "frost": (None, 0.24), "frost-green": ("green", 0.24), "frost-blue": ("blue", 0.24)}
+         "frost": (None, 0.24), "frost-green": ("green", 0.24), "frost-blue": ("blue", 0.24),
+         "frost-red": ("red", 0.24), "frost-amber": ("yellow", 0.24), "frost-violet": ("magenta", 0.24),
+         "frost-cyan": ("cyan", 0.24), "frost-light": (None, 0.1), "frost-heavy": (None, 0.45),
+         "frost-light-green": ("green", 0.1), "frost-heavy-blue": ("blue", 0.45)}
 # glass *types* beyond tint and frost: variant -> extra properties for glass_material
 TYPES = {"smoke": {"tint": "smoke"},                                   # dark neutral grey glass
          "opal": {"rough": 0.5, "milk": 0.35},                         # milky, nearly opaque
