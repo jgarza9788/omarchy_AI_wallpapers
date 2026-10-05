@@ -18,6 +18,8 @@ PICKS=(
   26-strata/strata--gruvbox             27-physarum/physarum--omarchy        28-chladni/chladni--omarchy
   29-keymap/keymap--omarchy              30-caustics/caustics--osaka-jade     31-loupe/loupe--omarchy
   32-periodic/periodic--omarchy          33-city/city--omarchy                34-bubbles/bubbles--catppuccin
+  36-character-sheet/sheet-knight--omarchy  37-character-sheet/sketch-wizard--omarchy
+  38-gel/gel--omarchy  39-shell-metro/metro--omarchy  40-sampler/sampler--omarchy
   35-receipt/receipt--gruvbox
 )
 for p in "${PICKS[@]}"; do

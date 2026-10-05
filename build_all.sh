@@ -21,10 +21,16 @@ python3 src/26-strata/strata.py
 python3 src/27-physarum/physarum.py
 python3 src/28-chladni/chladni.py
 python3 src/30-caustics/caustics.py
-python3 src/inventory.py --refresh   # 32-35 read the installed-software inventory
+python3 src/inventory.py --refresh   # 32-37 read the installed-software inventory
+python3 src/github_stats.py --refresh || true   # 36-37: GitHub stats via gh (optional)
 python3 src/32-periodic/periodic.py
 python3 src/34-bubbles/bubbles.py
 python3 src/35-receipt/receipt.py
+python3 src/36-character-sheet/character_sheet.py
+python3 src/37-character-sheet/sketch_sheet.py
+python3 src/38-gel/gel.py
+python3 src/39-shell-metro/shell_metro.py   # reads ~/.bash_history
+python3 src/40-sampler/sampler.py
 for g in 11-app-galaxy/app_galaxy 13-event-horizon/event_horizon 14-collapse/collapse 15-wake/wake 16-merger/merger \
          17-lightspeed/lightspeed 22-paper-terrain/paper_terrain; do
   python3 "src/$g.py" --scheme omarchy   # official brand colours
