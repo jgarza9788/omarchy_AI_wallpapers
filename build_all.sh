@@ -31,6 +31,9 @@ python3 src/37-character-sheet/sketch_sheet.py
 python3 src/38-gel/gel.py
 python3 src/39-shell-metro/shell_metro.py   # reads ~/.bash_history
 python3 src/40-sampler/sampler.py
+python3 src/45-tornado/tornado.py
+python3 src/46-shockwave/shockwave.py
+python3 src/47-disturbed-code/disturbed_code.py
 for g in 11-app-galaxy/app_galaxy 13-event-horizon/event_horizon 14-collapse/collapse 15-wake/wake 16-merger/merger \
          17-lightspeed/lightspeed 22-paper-terrain/paper_terrain; do
   python3 "src/$g.py" --scheme omarchy   # official brand colours
@@ -52,5 +55,8 @@ if [[ "${1:-}" != "--fast" ]]; then
   blender -b -P src/31-loupe/loupe.py -- --scheme all
   blender -b -P src/31-loupe/loupe.py -- --scheme omarchy --glass all
   blender -b -P src/33-city/city.py -- --scheme all
+  for d in 41-prism/prism 42-neon/neon 43-ferrofluid/ferrofluid 44-shatter/shatter; do
+    blender -b -P "src/$d.py" -- --scheme all --samples 64
+  done
 fi
 ./make_previews.sh

@@ -21,6 +21,8 @@ PICKS=(
   36-character-sheet/sheet-knight--omarchy  37-character-sheet/sketch-wizard--omarchy
   38-gel/gel--omarchy  39-shell-metro/metro--omarchy  40-sampler/sampler--omarchy
   35-receipt/receipt--gruvbox
+  41-prism/prism--omarchy  42-neon/neon--omarchy  43-ferrofluid/ferrofluid--omarchy  44-shatter/shatter--omarchy
+  45-tornado/tornado--omarchy  46-shockwave/shockwave--omarchy  47-disturbed-code/code-lens--tokyo-night
 )
 for p in "${PICKS[@]}"; do
   [ -f "output/$p.png" ] || { echo "skip $p (not rendered)"; continue; }
